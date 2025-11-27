@@ -1,0 +1,12 @@
+torch
+torchvision
+torchaudio
+transformers
+accelerate
+pillow
+fastapi
+uvicorn
+streamlit
+requests
+ultralytics
+opencv-python
