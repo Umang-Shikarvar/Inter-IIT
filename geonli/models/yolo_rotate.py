@@ -13,9 +13,15 @@ class YOLOOriented:
 
     def detect(self, img_path):
         res = self.model(img_path)[0]
-
         dets = []
-        for r in res.obb.numpy():
+
+        obb = res.obb
+        if obb is None:
+            return dets
+
+        obb_np = obb.cpu().numpy()
+
+        for r in obb_np:
             dets.append({
                 "poly": r.xyxyxyxy.tolist()[0],
                 "class": self.model.names[int(r.cls)],

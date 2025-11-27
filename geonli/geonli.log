@@ -52,3 +52,22 @@
 2025-11-27 23:03:34,807 | INFO | Models loaded successfully.
 2025-11-27 23:05:39,418 | INFO | Initializing models...
 2025-11-27 23:05:39,443 | INFO | Models loaded successfully.
+2025-11-27 18:21:05,191 | INFO | Initializing models...
+2025-11-27 18:21:28,677 | INFO | Models loaded successfully.
+2025-11-27 18:21:28,678 | ERROR | Form data requires "python-multipart" to be installed. 
+You can install "python-multipart" with: 
+
+pip install python-multipart
+
+2025-11-27 18:22:31,711 | INFO | Initializing models...
+2025-11-27 18:22:37,676 | INFO | Models loaded successfully.
+2025-11-27 18:23:30,067 | INFO | VQA Request | img=/tmp/tmpi8ah3nx5.png | q=
+2025-11-27 18:23:33,041 | INFO | VQA Result: An aerial image shows a rural landscape featuring a winding dirt road that curves around a blue building, possibly a shed or small structure. Several vehicles, including cars and trucks, are traveling along the road. The surrounding area is predominantly green, with fields and patches of vegetation. The image provides a glimpse into the daily life of this rural community, showcasing the interplay between transportation, infrastructure, and the natural environment.
+2025-11-27 18:23:38,769 | INFO | VQA Request | img=/tmp/tmpyrpnk6w6.png | q=how many buildings in the image?
+2025-11-27 18:23:39,079 | INFO | VQA Result: 1
+2025-11-27 18:23:53,749 | INFO | VQA Request | img=/tmp/tmp4_f4l9kp.png | q=what do you see in the image
+2025-11-27 18:23:55,509 | INFO | VQA Result: The image shows an aerial view of a small town situated in a rural area, surrounded by green fields. A road runs through the town, connecting different parts of the area. Several cars are traveling on the road, passing by a small building located near the center. The town appears to be relatively small, with limited infrastructure visible in the image.
+2025-11-27 18:24:05,113 | INFO | Caption Request | img=/tmp/tmpftd5nxo5.png
+2025-11-27 18:24:07,699 | INFO | Caption Result: {'caption': 'An aerial image shows a rural landscape featuring a straight, light grey road that curves gently to the right. A blue building is situated on the right side of the road, and a red-roofed building is also visible. The surrounding terrain is predominantly green, with areas of darker green potentially indicating vegetation or shadows. A few vehicles, including cars and a possible truck, are visible on the road. The image does not provide enough detail to determine if the road is wet or if there are any bodies of water nearby.'}
+2025-11-27 18:40:41,236 | INFO | Initializing models...
+2025-11-27 18:40:47,171 | INFO | Models loaded successfully.
