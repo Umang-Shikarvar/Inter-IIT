@@ -10,3 +10,4 @@ streamlit
 requests
 ultralytics
 opencv-python
+python-multipart
